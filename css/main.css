@@ -34,7 +34,6 @@ a:visited { color: #205caa; }
   zoom: 1;
 }
 
-
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
@@ -200,13 +199,13 @@ a:visited { color: #205caa; }
 }
 
 .post-content h2 {
-  font-size: 32px;
+  font-size: 20px;
   letter-spacing: -1.25px;
 }
 
 .post-content h3 {
   font-size: 26px;
-  letter-spacing: -1px;
+
 }
 
 .post-content h4 {
@@ -578,6 +577,7 @@ li a {
     border-radius: 50%;
     position: relative;
     cursor: default;
+    text-align: justify;
 
 }
 
@@ -658,6 +658,11 @@ li a {
 
 .about-home img{
   width: 100%;
+}
+.sub-title{
+    padding: 0 0 1em 0;
+  margin: 0;
+  line-height: 1.3;
 }
 
 .post-content{
