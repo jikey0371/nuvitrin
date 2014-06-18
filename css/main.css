@@ -28,8 +28,8 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 900px;
-  padding: 0 30px;
+  max-width: 85%;
+  padding: 0 20px;
   margin: 0 auto;
   zoom: 1;
 }
@@ -98,21 +98,24 @@ a:visited { color: #205caa; }
   width: calc(35% - 10px);
   margin-right: 10px
 }
+/*
 .footer-col-2 {
-  width: 175px; /*fallback*/
+  width: 700px; 
   width: -webkit-calc(23.125% - 10px);
   width: -moz-calc(23.125% - 10px);
   width: -o-calc(23.125% - 10px);
   width: calc(23.125% - 10px);
   margin-right: 10px
+}*/
+
+.footer-col-2 {
+  width: 400px; /*fallback*/
+  width: -webkit-calc(60%);
+  width: -moz-calc(60%);
+  width: -o-calc(60%);
+  width: calc(60%);
 }
-.footer-col-3 {
-  width: 335px; /*fallback*/
-  width: -webkit-calc(41.875%);
-  width: -moz-calc(41.875%);
-  width: -o-calc(41.875%);
-  width: calc(41.875%);
-}
+
 
 .site-footer ul { list-style: none; }
 
@@ -123,15 +126,21 @@ a:visited { color: #205caa; }
   color: #828282;
 }
 /*
-.github-icon-svg,
+.facebook-icon-svg,
 .twitter-icon-svg {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 3px;
+}*/
+.icons{
+  display: inline;
+  width: 30px;
+  height: 30px;
   position: relative;
   top: 3px;
 }
-*/
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
@@ -205,13 +214,18 @@ a:visited { color: #205caa; }
 
 .post-content h3 {
   font-size: 26px;
-
+  color:#008900;
 }
 
 .post-content h4 {
   font-size: 20px;
   letter-spacing: -1px;
 }
+
+.post-content h5{
+    font-size: 15px;
+}
+
 
 .post-content blockquote {
   border-left: 4px solid #e8e8e8;
@@ -463,6 +477,7 @@ a:visited { color: #205caa; }
 
 .ei-slider-large li img{
     width: 100%;
+    height: 90%;
 }
 
 .ei-slider a{
@@ -492,6 +507,28 @@ a:visited { color: #205caa; }
   background: #24b662;
 }
 
+.about-home button#buy-button{
+  width: 100px;
+  height: 50px;
+  position: relative;
+  z-index: 2;
+  bottom: 310px;
+  left: 900px;
+
+  border-radius: 40px;
+  border: 3px solid #fff;
+  color: #fff;
+  overflow: hidden;
+}
+
+.about-home button#buy-button:active{
+  border-color: #17954c;
+  color: #17954c;
+}
+
+.about-home button#buy-button:hover{
+  background: #B6B6B4;
+}
 
 .middle-home img{
   height: 100%;
@@ -520,7 +557,7 @@ a:visited { color: #205caa; }
 .sub-title h2{
     margin-top: 10px;
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
@@ -540,17 +577,20 @@ a:visited { color: #205caa; }
 .sub-title h5{
   color: #007000;
   font-size: 15px;
+  text-align: left;
   
 }
 
 .sub-title h6{
   color: #007000;
   font-size: 15px;
+  text-align: left;
   
 }
 
 .sub-title h7{
-  font-size: 16px;
+  font-size: 13px;
+  text-align: left;
   
 }
 
@@ -605,8 +645,8 @@ li a {
 }
  
 .ch-grid li {
-    width: 190px;
-    height: 170px;
+    width: 260px;
+    height: 200px;
     display: inline-block;
     margin: 13px;
     position:relative;
@@ -734,7 +774,7 @@ li a {
   }
 
 .nav ul {
-  padding: 0 20px 0px 20px;
+  padding: 50px 10px 0px 140px;
   border-radius: 3px;  
   list-style: none;
   position: relative;
@@ -785,4 +825,7 @@ li a {
   position: absolute; left: 100%; top:0;
 }
 
+.send-email {
+  padding: 0 400px 100px 100px;
+}
 
