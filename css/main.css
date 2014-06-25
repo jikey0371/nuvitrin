@@ -679,7 +679,7 @@ li a {
 .nav {
   position:relative;
   z-index: 9999;
-  min-width: 1200px;
+  min-width: 1100px;
 }
 .nav ul ul {
   display: none;
