@@ -576,22 +576,22 @@ li a {
 }
 
 .ch-img-1 { 
-    background-image: url("nuvitrin/image/app.png");
+    background-image: url("/nuvitrin/image/app.png");
     width:100%;
 }
  
 .ch-img-2 { 
-    background-image: url("nuvitrin/image/helpimg.jpg");
+    background-image: url("/nuvitrin/image/helpimg.jpg");
     width:100%;
     height: 100%;
 }
  
 .ch-img-3 { 
-    background-image: url("nuvitrin/image/seed.jpg");
+    background-image: url("/nuvitrin/image/seed.jpg");
 }
 
 .ch-img-4 {
-    background-image: url("nuvitrin/image/product.png");
+    background-image: url("/nuvitrin/image/product.png");
 }
 
 .ch-info {
