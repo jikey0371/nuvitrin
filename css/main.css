@@ -749,6 +749,6 @@ li a {
   float: right;
   list-style-type: none;
   text-align: center;
-  top-padding:3%;
+  padding-top: 3%;
 
 }
