@@ -501,7 +501,9 @@ a:visited { color: #205caa; }
 
 .sub-title h7{
   font-size: 13px;
-  text-align: left;
+  text-align: center;
+  list-style-type: none;
+  float:left;
   
 }
 
@@ -677,7 +679,7 @@ li a {
 .nav {
   position:relative;
   z-index: 9999;
-  min-width: 8000px;
+  min-width: 1200px;
 }
 .nav ul ul {
   display: none;
@@ -745,6 +747,8 @@ li a {
 
 .language{
   float: right;
+  list-style-type: none;
   text-align: center;
-  display: inline-block;
+  top-padding:3%;
+
 }
