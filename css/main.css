@@ -533,8 +533,7 @@ li a {
     text-align: center;
     width: 100%;
     height: 100%;
-    float: top;
-    
+   
 }
 .home{
   overflow: hidden;
@@ -579,13 +578,10 @@ li a {
 
 .ch-img-1 { 
     background-image: url("/nuvitrin/image/app.png");
-    width:100%;
 }
  
 .ch-img-2 { 
     background-image: url("/nuvitrin/image/helpimg.jpg");
-    width:100%;
-    height: 100%;
 }
  
 .ch-img-3 { 
