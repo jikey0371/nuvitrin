@@ -408,6 +408,8 @@ a:visited { color: #205caa; }
 .ei-slider-large li img{
     width: 98%;
     height: 87%;
+    /*width: 1100px;
+    height:800px;*/
 }
 
 .ei-slider a{
