@@ -89,7 +89,7 @@ a:visited { color: #205caa; }
 }
 
 .footer-col-2 {
-  width: 400px; /*fallback*/
+  width: 750px; /*fallback*/
   width: -webkit-calc(60%);
   width: -moz-calc(60%);
   width: -o-calc(60%);
@@ -657,12 +657,4 @@ li a {
 
 .send-email {
   padding: 0 400px 100px 100px;
-}
-
-.language{
-  float: right;
-  list-style-type: none;
-  text-align: center;
-  padding-top: 3%;
-
 }
