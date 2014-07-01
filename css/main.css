@@ -365,6 +365,8 @@ a:visited { color: #205caa; }
 .site-logo img {
   width: 200%;
   height: 100%;
+  border: none;
+  outline: none;
 }
 
 #home-bottom {
