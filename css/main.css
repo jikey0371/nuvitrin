@@ -358,6 +358,8 @@ a:visited { color: #205caa; }
   width: 100px;
   height: 80px;
   padding-top: 30px;
+  border:none;
+  outline: none;
 }
 
 .site-logo img {
