@@ -451,7 +451,7 @@ a:visited { color: #205caa; }
   background: #24b662;
 }
 
-.about-home button#buy-button{
+.about-home button.buy-button{
   width: 200px;
   height: 70px;
   border-radius: 40px;
@@ -465,13 +465,13 @@ a:visited { color: #205caa; }
   padding-bottom: 0px;
 }
 
-.about-home button#buy-button:active{
+.about-home button.buy-button:active{
   border-color: #17954c;
   -webkit-border-color:#17954c;
   color: #17954c;
 }
 
-.about-home button#buy-button:hover{
+.about-home button.buy-button:hover{
   background: #B6B6B4;
 }
 
